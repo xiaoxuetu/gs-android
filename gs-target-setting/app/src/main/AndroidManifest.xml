@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.xiaoxuetu.gs_target_setting" >
-    
+
+    <!-- 指定应用运行时需要的最低Android API Level要求,
+         在实际编译的过程中，会以build.gradle中设置的值为准覆盖下面设置的值
+    -->
+    <uses-sdk android:minSdkVersion="19"/>
 
     <application
         android:allowBackup="true"
