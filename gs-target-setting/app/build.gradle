@@ -10,6 +10,7 @@ android {
         // 指定应用运行时需要的最低Android API Level要求
         // 如果系统的API Level低于指定指，将会安装不上
         minSdkVersion 21
+        targetSdkVersion 21
         versionCode 1
         versionName "1.0"
     }
